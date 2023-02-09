@@ -7,9 +7,9 @@ print(square(5))
 
 # calculate squareroot of a number and print it
 # main function for the same 
-def squareroot(x):
-    """Function printing squareroot of the number."""
-    return x ** 0.5
+def squareroot(_x):   
+    """Function printing squareroot of the number. x as the parameter """    
+    return _x ** 0.5
 print("calculate squareroot of a number and print it" )
 
 # lamda for the suqare root 

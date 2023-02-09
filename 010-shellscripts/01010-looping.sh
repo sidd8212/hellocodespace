@@ -1,30 +1,23 @@
-# looping   : for, while, until and select  (select is not a loop)
-# example of if statement
- if [ condition ]
- then
-  ls -lrt /home 
-  #command2
-# else
-#   command3
-#   command4
-# fi
-# example of for loop
+#!/bin/bash
 
+# looping   : for, while, until and select  (select is not a loop)
+
+echo 'for loop example'
 for i in 1 2 3 4 5
 do
-    echo "Welcome $i times"
+    echo "for  $i times"
 done
 
 # example of while loop
 # while [ condition ]
 
+
+
+echo 'while loop example'
 i=1
-
-
-
 while [ $i -le 5 ]
 do
-    echo "Welcome $i times"
+    echo "while $i times"
     i=`expr $i + 1`
 done
 
@@ -36,7 +29,6 @@ i=1
 until [ $i -gt 5 ]
 
 do
-    echo "Welcome $i times"
+    echo "until $i times"
     i=`expr $i + 1`
-done
-
+done 
