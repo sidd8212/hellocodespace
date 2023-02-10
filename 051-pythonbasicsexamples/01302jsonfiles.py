@@ -12,7 +12,6 @@ logging.basicConfig(
 # create the json file
 def createjsonfile():
     logging.info("**** starting createjsonfile")
-
     # create the json file
     with open('000-resources/datafiles/jsonfile.json', 'w') as json_file:
         # create the json object
