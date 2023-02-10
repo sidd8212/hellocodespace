@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # looping   : for, while, until and select  (select is not a loop)
-
+sleep 10
 echo 'for loop example'
 for i in 1 2 3 4 5
 do

@@ -1,3 +1,64 @@
+# python array excample
+import array as arr
+
+# array need to imported from array module
+# typecode 'i' for signed integer
+arrayexample = arr.array('i', [1, 2, 3, 4, 5, 6])
+print("arrayexample[0]: ", arrayexample[0])
+for i in arrayexample[2:5]:
+    print(i)
+
+    # python string excample
+    # python boolean excample
+    # python number excample
+    # 
+
+
+print(dateexample.format(dateformat)) 
+    # python file excample
+    # python function excample
+    # python class excample
+    # python object excample
+    # python exception excample
+    # python module excample
+    # python package excample
+    # python namespace excample
+    # python decorator excample
+    # python generator excample
+    # python iterator excample
+    # python lambda excample
+    # python property excample
+    # python threading excample
+    # python multiprocessing excample
+    # python subprocess excample
+    # python socket excample
+    # python json excample
+    # python xml excample
+    # python csv excample
+    # python sqlite excample
+    # python mysql excample
+    # python mongodb excample
+    # python redis excample
+    # python email excample
+    # python logging excample
+    # python unittest excample
+    # python pip excample
+    # python virtualenv excample
+    # python virtualenvwrapper excample
+    # python virtualenvwrapper-win excample
+    # python virtualenvwrapper-mac excample
+    # python virtualenvwrapper-linux excample
+    # python virtualenvwrapper-ubuntu excample
+    # python virtualenvwrapper-archlinux excample
+    # python virtualenvwrapper-fedora excample
+    # python virtualenvwrapper-debian excample
+    # python virtualenvwrapper-centos excample
+    # python virtualenvwrapper-opensuse excample
+    # python virtualenvwrapper-gentoo excample
+    # python virtualenvwrapper-suse excample
+    # python virtualenvwrapper-archlinux excample
+
+
 # print hello world in python
 print("Hello World")
 # create dictionay in python and print it
