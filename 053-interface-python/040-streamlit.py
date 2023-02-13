@@ -1,5 +1,5 @@
 # example of steamlit   
-# to run -- streamlit run /workspaces/hellocodespace/053-interface-python/040-streamlit.py 
+# to run -- streamlit run /workspaces/hellocodespace/053-interface-python/040-streamlit.py --server.enableCORS false --server.enableXsrfProtection false
 # https://docs.streamlit.io/en/stable/api.html
 # https://docs.streamlit.io/en/stable/api.html#display-interactive-widgets
 import streamlit as st
