@@ -8,8 +8,11 @@ curl -X PUT http://localhost:5984/_users/org.couchdb.user:admin -d '{"name":"adm
 curl -X PUT http://localhost:5984/_users/org.couchdb.user:readonly -d '{"name":"readonly", "password":"readonly", "roles":[], "type":"user"}'
 curl -X PUT http://localhost:5984/mydb -d '{"admins":{"names":["admin"], "roles":[]}, "members":{"names":["readonly"], "roles":[]}}'
 # create read write user and database
-curl -X PUT http://localhost:5984/_users/org.couchdb.user:readwrite -d '{"name":"readwrite", "password":"readwrite", "roles":[], "type":"user"}'
-curl -X PUT http://localhost:5984/mydb2 -d '{"admins":{"names":["admin"], "roles":[]}, "members":{"names":["readwrite"], "roles":[]}}'
+curl -X PUT http://localhost:5880/_users/org.couchdb.user:readwrite -d '{"name":"readwrite", "password":"readwrite", "roles":[], "type":"user"}'
+# give access to the database to the readwrite user
+# the database is created with the admin user
+
+curl -X PUT http://localhost:5880/mydb2 -d '{"admins":{"names":["admin"], "roles":[]}, "members":{"names":["readwrite"], "roles":[]}}'
 #
 
 
