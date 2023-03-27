@@ -3,3 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 .part*
+.pytest_cache/
+.*
+_SUCCESS
+part*
+
+# java files to be ignored 
+*.class
+*.jar
+*.war
