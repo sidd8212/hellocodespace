@@ -8,7 +8,18 @@ __pycache__/
 _SUCCESS
 part*
 
+# log files  to be ignored 
+*.log
+*.log.*
+
+# packages files 
+*package*
+
 # java files to be ignored 
 *.class
 *.jar
 *.war
+
+# node modles ignores
+node_modules/
+

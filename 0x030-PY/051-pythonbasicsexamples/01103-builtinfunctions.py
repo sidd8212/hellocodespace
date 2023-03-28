@@ -17,8 +17,7 @@ print(type('Hello World'))
 print(type(5))
 print(type(5.5))
 print(type([1, 2, 3, 4, 5]))
-print(type((1, 2, 3, 4, 5)))
-print(type({1, 2, 3, 4, 5}))
+
 print(type({'a': 1, 'b': 2, 'c': 3}))
 
 #format() returns a formatted representation of a value

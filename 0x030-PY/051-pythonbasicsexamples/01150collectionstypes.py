@@ -68,6 +68,7 @@ print("dictexample['Name']: ", dictexample['Name'])
 print("dictexample['Age']: ", dictexample['Age'])
 print("dictexample['Class']: ", dictexample['Class'])
 
+# mutable means -- can be changed
 print("tupples -- immutables ")
 # print create tupple and print it
 tup = ('physics', 'chemistry', 1997, 2000)
