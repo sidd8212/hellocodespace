@@ -1,16 +1,19 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 
-public class ForkProcess {
-    // Example to fork the process and get the response in java 
+
+public class ForkProcessBash {
+    
+
+
     public static void main(String[] args) throws Exception {
-        String command = "java --version";
+        String command = "ps -ef | grep codespace | grep 391 ";
         //converted command to process builder
-        String [] commandArray = command.split(" ");
-
+        
 
         // create a process builder
-        ProcessBuilder pb = new ProcessBuilder(commandArray);
+        ProcessBuilder pb = new ProcessBuilder("/bin/sh", "-c",command);
         // start the process
         Process p = pb.start();
         // get the output from the process
