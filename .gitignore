@@ -7,7 +7,7 @@ __pycache__/
 .*
 _SUCCESS
 part*
-
+*.db
 # log files  to be ignored 
 *.log
 *.log.*
